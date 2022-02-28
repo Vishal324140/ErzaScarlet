@@ -62,7 +62,7 @@ PM_START_TEXT = """
 Hey there, {}!
 Hey I Am {}
 
-I can manage your group easily with many feautres and games. **Just add me in your group to use me.
+I can manage your group easily with many feautres and games and music. **Just add me in your group to use me.
 
 *Status*: [Working Fine](https://t.me/ErzaScarlet_Justice)
 *Life Force*: `100%`
@@ -72,7 +72,7 @@ Too see commands send /help .
 
 
 HELP_STRINGS = """
-*Main Commands :* [ʕ·ᴥ·ʔ](https://telegra.ph/file/f14c63556a46189167eb7.jpg)
+*Main Commands :* [ʕ·ᴥ·ʔ](https://telegra.ph/file/f18e461471d5c8968f193.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /settings: 
@@ -80,8 +80,8 @@ HELP_STRINGS = """
    ◔ in a Group: will redirect you to pm, with all that chat's settings.
 """
 
-ErzaScarlet_IMG = "https://indianime.com/wp-content/uploads/2021/08/photo_2021-08-21_12-17-22.jpg)"
-ErzaScarlet_YAWN = "https://telegra.ph/file/baad9f6111310638c438c.mp4" #"https://telegra.ph/file/df5c1103ab9d539ab760d.gif"
+ErzaScarlet_IMG = "https://telegra.ph/file/f18e461471d5c8968f193.jpg)"
+ErzaScarlet_YAWN = "https://telegra.ph/file/f18e461471d5c8968f193.jpg" #"https://telegra.ph/file/f18e461471d5c8968f193.jpg"
 YAWN_CPT = "I am Awake ! ~ 💤"
 
 IMPORTED = {}
@@ -206,7 +206,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add Erza In Your Group",
+                                text="Add Sweety In Your Group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username,
                                 ),
@@ -218,14 +218,14 @@ def start(update: Update, context: CallbackContext):
                                 url=f"https://t.me/{SUPPORT_CHAT}",
                             ),
                             InlineKeyboardButton(
-                                text="Anime Group",
-                                url="https://t.me/indianimein",
+                                text="creator",
+                                url="https://t.me/silent_killer_008",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Anime Channel",
-                                url="https://t.me/indianimei",
+                                text="owner",
+                                url="https://t.me/Ti_amo_F_amore_mio_2912",
                             ),
                             InlineKeyboardButton(
                                 text="Anime Index",
@@ -234,8 +234,8 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="IndiAnime Network",
-                                url="https://t.me/IndiAnimeNetwork",
+                                text="sweety Network",
+                                url="https://t.me/Preet_music_bot_143",
                             ),
                         ],
                     ],
